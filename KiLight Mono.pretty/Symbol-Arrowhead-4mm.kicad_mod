@@ -1,0 +1,82 @@
+(footprint "Symbol-Arrowhead-4mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Arrowhead symbol, 4mm high, use with 2mm or smaller line width ")
+	(tags "Symbol graphic arrowhead 4mm pointer arrow")
+	(property "Reference" "REF**"
+		(at 0 0.499999 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e14a823c-145d-400d-ba3b-3a7badc11ee7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Symbol-Arrowhead-4mm"
+		(at 0 -0.499999 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce8a577a-5ddd-45c0-883a-bf1cc35e8b78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Graphics:Symbol-Arrowhead-4mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c72529d-a10b-4346-b8ca-efea084ea315")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e12a65ac-0319-400a-8b28-4ffdf5d543ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "989c9bba-423a-4f25-8fa0-b5863c07723b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy -0.000001 2.999999) (xy 1.999998 -1.000001) (xy 1.749999 -1.125001) (xy 0.499999 -0.000001) (xy -0.500001 -0.000001)
+			(xy -1.750001 -1.125001) (xy -2.000001 -1.000001) (xy -0.000001 2.999999)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "7b6f2db8-fa51-4cf3-a366-473abb0b5000")
+	)
+)

@@ -1,0 +1,168 @@
+(footprint "TestPoint_Loop_0805_RCT_SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "0805 Test Point Loop Chip")
+	(tags "Test Point, Test Loop")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "06abd59b-71d8-45a7-ac99-c6fb49917dea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3V_{Ref}"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c5da9d75-2857-4a9c-b4da-054850a7b735")
+		(effects
+			(font
+				(size 1.2 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Measurement Points - Custom:TestPoint_Loop_0805_RCT_SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "425e6bb6-942d-4018-81c0-9c7317123521")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62bc08be-28e9-40fc-96d8-0e2989e53638")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "test point (alternative shape)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a844a691-9dbd-4c46-8ccb-0ad8de43a68d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "RCTCTE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6728f07-a382-46c9-bce2-ffe9fc861f08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.175 -0.8)
+		(end 1.175 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3e3f5080-087d-4cd6-a275-407abecbb7df")
+	)
+	(fp_line
+		(start -1.25 -0.85)
+		(end 1.25 -0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "dcac087d-ed1e-40d8-8c06-d09d5d5bc528")
+	)
+	(fp_line
+		(start -1.25 0.85)
+		(end -1.25 -0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "65e1301c-5def-42ad-988d-63d7b2d51674")
+	)
+	(fp_line
+		(start 1.25 -0.85)
+		(end 1.25 0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b11da43-d5d7-49a6-acc6-662e7c3e0e68")
+	)
+	(fp_line
+		(start 1.25 0.85)
+		(end -1.25 0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "17f988f2-a37d-45d6-ae74-a406e224fa34")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f0a691c1-8e8b-490e-9e75-d91a5617aae9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 2.2 1.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "0b3d204d-3ddb-4124-9571-887a5ee0ab68")
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/RCT.step"
+		(offset
+			(xyz 0 -0.62 0.62)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

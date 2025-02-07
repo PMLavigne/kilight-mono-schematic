@@ -1,0 +1,313 @@
+(footprint "Maxim_TDFN-6-1EP_3x3mm_P0.95mm_EP1.5x2.3mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Maxim  TDFN, 6 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/MAX4460-MAX4462.pdf#page=19, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tdfn-ep/21-0137.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "Maxim TDFN NoLead")
+	(property "Reference" "REF**"
+		(at 0 2.4 180)
+		(layer "F.SilkS")
+		(uuid "3ebf4556-fc15-477e-b65c-4d3bac550db5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DS2485"
+		(at 0 2.450001 180)
+		(layer "F.Fab")
+		(uuid "4be2d326-6b82-4eba-a3fe-3b0d62f56080")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_DFN_QFN:Maxim_TDFN-6-1EP_3x3mm_P0.95mm_EP1.5x2.3mm"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb7e5b03-76d6-45cd-b905-5942e4a5c6e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ds2485.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d83768fb-4586-47a0-b11c-926d54fcb4c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Advanced 1-Wire Master with Memory"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dea36b7e-7de7-4b4f-a481-5af660b118ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "DS2485Q"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38f7e207-20c1-4428-a914-86a02bfd5971")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1.61)
+		(end 1.5 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17e6b9a6-1536-4167-8108-10834919f61a")
+	)
+	(fp_line
+		(start -1.5 1.61)
+		(end 1.5 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e15ece9e-4aea-43ad-b42c-2d45d1c556cf")
+	)
+	(fp_poly
+		(pts
+			(xy -2.03 -1.31) (xy -2.51 -1.31) (xy -2.03 -1.79) (xy -2.03 -1.31)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d7b59b0f-5086-466e-a406-97c2867d5fc3")
+	)
+	(fp_line
+		(start -2.13 -1.75)
+		(end -2.13 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b328554-e175-4284-afb6-b2023048595c")
+	)
+	(fp_line
+		(start -2.13 1.75)
+		(end 2.13 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dcdca05f-168f-4c1f-bec3-593aea65a692")
+	)
+	(fp_line
+		(start 2.13 -1.75)
+		(end -2.13 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "976d7da5-b342-4635-9e4f-525ef37009f4")
+	)
+	(fp_line
+		(start 2.13 1.75)
+		(end 2.13 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1e79ad76-c7eb-44f2-a5cb-242345b6aa77")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03a1aee0-f176-4b07-b1a8-c61be548b311")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a73b0ed3-6caa-431f-abf1-3c8b2040ae99")
+	)
+	(fp_line
+		(start -0.75 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f3ec950-0403-4f9f-9aef-21b6ff6e0ef1")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0ae460c-9b22-496b-b7e8-855a352cc269")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "940362b1-4082-4a53-997a-e72112cf9ab2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "f0130b8b-fc2c-423f-a036-67de0ae75794")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.375 -0.575)
+		(size 0.6 0.93)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "cb2fcde3-e1c0-4037-8aeb-c5b47c00bc2d")
+	)
+	(pad "" smd roundrect
+		(at -0.375 0.575)
+		(size 0.6 0.93)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "09d581aa-2177-42ac-9126-2be29dd39648")
+	)
+	(pad "" smd roundrect
+		(at 0.375 -0.575)
+		(size 0.6 0.93)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "bebd739b-f317-4bc7-8067-838a225ab02c")
+	)
+	(pad "" smd roundrect
+		(at 0.375 0.575)
+		(size 0.6 0.93)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "cdaab797-9ef6-42c5-b915-24e0197f8019")
+	)
+	(pad "1" smd roundrect
+		(at -1.4875 -0.95)
+		(size 0.775 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a32ee99a-3b57-45f5-ab84-9e9d9680def3")
+	)
+	(pad "2" smd roundrect
+		(at -1.4875 0)
+		(size 0.775 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "19535489-4686-4de0-81ab-d3cce4c995a7")
+	)
+	(pad "3" smd roundrect
+		(at -1.4875 0.95)
+		(size 0.775 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "83e15092-eded-4f68-be65-b2d74ec53552")
+	)
+	(pad "4" smd roundrect
+		(at 1.4875 0.95)
+		(size 0.775 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8725ab3d-d8b6-4e1a-b543-8140d5fe5718")
+	)
+	(pad "5" smd roundrect
+		(at 1.4875 0)
+		(size 0.775 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "5c55108f-39e1-4ca5-b73d-33ed87b7b5a2")
+	)
+	(pad "6" smd roundrect
+		(at 1.4875 -0.95)
+		(size 0.775 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "b4ffc0a9-085c-4f27-8bb4-c03286ae96a3")
+	)
+	(pad "7" smd rect
+		(at 0 0)
+		(size 1.5 2.3)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "c6e5292e-eab1-4d33-ab1a-c6501bf6b582")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Maxim_TDFN-6-1EP_3x3mm_P0.95mm_EP1.5x2.3mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

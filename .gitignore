@@ -29,3 +29,12 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+## Custom
+.DS_Store
+
+# I tend to export BOM's to HTML
+*.html
+
+# I export gerbers to a folder called "Gerbers"
+/Gerbers/
